@@ -4,7 +4,6 @@ import facebook from "../public/facebook.svg";
 import twitter from "../public/twitter.svg";
 import search from "../public/search.svg";
 import instagram from "../public/instagram.svg";
-import bg from "../public/Rectangle.png";
 import styles from "../styles/Nav.module.css";
 
 export const Nav = () => {

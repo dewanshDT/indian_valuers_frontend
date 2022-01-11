@@ -4,4 +4,5 @@
   display: flex;
   flex-direction: column;
   margin: auto;
+  min-height: 100vh;
 }
