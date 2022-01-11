@@ -1,61 +1,33 @@
-import Image from 'next/image'
-import logo from '../public/logo.svg'
-import facebook from '../public/facebook.svg'
-import twitter from '../public/twitter.svg'
-import search from '../public/search.svg'
-import instagram from '../public/instagram.svg'
-import bg from '../public/Rectangle.png'
-import navbarStyles from '../styles/Nav.module.css'
+import Image from "next/image";
+import logo from "../public/logo.svg";
+import facebook from "../public/facebook.svg";
+import twitter from "../public/twitter.svg";
+import search from "../public/search.svg";
+import instagram from "../public/instagram.svg";
+import bg from "../public/Rectangle.png";
+import styles from "../styles/Nav.module.css";
 
 export const Nav = () => {
-    return (
-       <div className={navbarStyles.rec} >
-           <div className={navbarStyles.Nav}>
-                <div className={navbarStyles.menu}>
-                <span className={navbarStyles.categories}>
-                    Categories
-                    </span>    
-                    
-                <span className={navbarStyles.blogs}>
-                    Blogs
-                    </span>    
+  return (
+      <nav className={styles.navigation}>
+          <div className={styles.menue}>
+              <div className={styles.menueItem}>categories</div>
+              <div className={styles.menueItem}>blogs</div>
+              <div className={styles.menueItem}>about us</div>
+          </div>
 
-                    
-                <span className={navbarStyles.about}>
-                    About Us
-                    </span>    
-                 </div>  
-                 
-                 <div className={navbarStyles.logo}>
-                     <Image src={logo} />
-                 </div>
+          <div className={styles.logo}>
+              <Image src={logo} />
+          </div>
 
-                <div className={navbarStyles.social}>
-                    <Image src={twitter} />
-                    <Image src={facebook} />
-                    <Image src={instagram} />
-                    <Image src={search} /> 
-                </div>
-                
-            </div>
-            
-            <div className={navbarStyles.button}>
-                 <p className={navbarStyles.btext}>
-                     READ MORE
-                 </p>
-            </div>
-              
+          <div className={styles.menue}>
+              <div className={styles.menueItem}><Image src={search} /></div> 
+              <div className={styles.menueItem}><Image src={instagram} /></div> 
+              <div className={styles.menueItem}><Image src={facebook} /></div> 
+              <div className={styles.menueItem}><Image src={twitter} /></div> 
+          </div>
+      </nav>
+  )
+};
 
-            <div className={navbarStyles.banner}>
-                <p className={navbarStyles.text}>
-                What does it take to be an Indian Valuer ? Ask the writers’ of this blog
-                </p>
-                
-                <Image src={bg} className={bg} />
-            </div> 
-            
-     </div>      
-    )
-}
-
-export default Nav
+export default Nav;

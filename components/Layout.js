@@ -3,15 +3,12 @@ import styles from '../styles/Layout.module.css'
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className={styles.container}>
       <Nav />
-      <div >
-        <main>
-          
+        <main className={styles.main}>
           {children}
         </main>
-      </div>
-    </>
+    </div>
   )
 }
 
