@@ -1,0 +1,190 @@
+.Nav {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.05));
+}
+
+.menu {
+  position: absolute;
+  width: 295px;
+  height: 18px;
+  left: 100px;
+  top: 41px;
+}
+.categories {
+  position: absolute;
+  width: 100.68px;
+  height: 18px;
+  left: 100px;
+  top: 41px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.blogs {
+  position: absolute;
+  width: 54.37px;
+  height: 18px;
+  left: 229.88px;
+  top: 41px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.about {
+  position: absolute;
+  width: 81.55px;
+  height: 18px;
+  left: 313.45px;
+  top: 41px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.logo {
+  position: absolute;
+  left: 40.83%;
+  right: 40.87%;
+  top: 1.13%;
+  bottom: 96.37%;
+}
+.social {
+  position: absolute;
+  height: 30px;
+  left: 1150px;
+  right: 101.1px;
+  top: 35px;
+}
+.twitter {
+  position: absolute;
+  width: 29.9px;
+  height: 30px;
+  right: 0px;
+  top: 0px;
+}
+.facebook {
+  position: absolute;
+  width: 29.9px;
+  height: 30px;
+  right: 53px;
+  top: 0px;
+}
+.instagram {
+  position: absolute;
+  width: 29.9px;
+  height: 30px;
+  right: 106px;
+  top: 0px;
+}
+.search {
+  position: absolute;
+  width: 29.9px;
+  height: 30px;
+  right: 159px;
+  top: 0px;
+}
+.rec {
+  position: absolute;
+  height: 100px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: absolute;
+  width: 156px;
+  height: 39px;
+  left: calc(50% - 156px / 2);
+  top: 497px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.btext{
+    position: static;
+width: 156px;
+height: 39px;
+left: 0px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.banner {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 100px;
+}
+
+.text {
+  position: absolute;
+  width: 583px;
+  height: 192px;
+  left: calc(50% - 583px / 2 - 0.5px);
+  top: 241px;
+
+  font-family: Noe Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.bg
+{
+    position: absolute;
+height: 600px;
+left: 0px;
+right: 0px;
+top: 100px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/Rectangle.png);
+}
