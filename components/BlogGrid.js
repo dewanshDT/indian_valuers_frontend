@@ -19,7 +19,7 @@ const BlogGrid = ({ title, list }) => {
 const GridItem = ({blog}) => {
   return (
     <div className="gridItem small">
-      <Image src={blog?.bgLink} />
+      {blog?<Image src={blog?.bgLink} />:""}
       <div className="content">
         <h6>{blog?.type}</h6>
         <h5>{blog?.title}</h5>
