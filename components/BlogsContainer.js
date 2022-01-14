@@ -22,7 +22,7 @@ export default BlogsContainer;
 const GridItem = ({title, bgLink, type}) => {
   return (
     <div className="gridItem">
-      <Image src={bgLink} />
+      <Image src={bgLink} alt={title} />
       <div className="content">
         <h6>{type}</h6>
         <h5>{title}</h5>

@@ -19,7 +19,7 @@ const BlogGrid = ({ title, list }) => {
 const GridItem = ({blog, index}) => {
   return (
     <div className="gridItem small" key={index}>
-      {blog?<Image src={blog?.bgLink} />:""}
+      <Image src={blog?.bgLink} alt={blog?.title} />
       <div className="content">
         <h6>{blog?.type}</h6>
         <h5>{blog?.title}</h5>

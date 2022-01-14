@@ -16,14 +16,14 @@ export const Nav = () => {
           </div>
 
           <div className={styles.logo}>
-              <Image src={logo} />
+              <Image src={logo} alt="logo" />
           </div>
 
           <div className={styles.menue}>
-              <div className={styles.menueItem}><Image src={search} /></div> 
-              <div className={styles.menueItem}><Image src={instagram} /></div> 
-              <div className={styles.menueItem}><Image src={facebook} /></div> 
-              <div className={styles.menueItem}><Image src={twitter} /></div> 
+              <div className={styles.menueItem}><Image src={search} alt="search" /></div> 
+              <div className={styles.menueItem}><Image src={instagram} alt="instagram" /></div> 
+              <div className={styles.menueItem}><Image src={facebook} alt="facebook" /></div> 
+              <div className={styles.menueItem}><Image src={twitter} alt="twitter" /></div> 
           </div>
       </nav>
   )
