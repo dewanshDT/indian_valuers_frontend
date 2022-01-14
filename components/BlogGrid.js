@@ -6,9 +6,9 @@ const BlogGrid = ({ title, list }) => {
     <div className="blogsContainer">
       <h3>{title}</h3>
       <div className="grid">
-        {list?.map((blog) => {
+        {list?.map((blog, index) => {
           return (
-            <GridItem blog={blog} />
+            <GridItem blog={blog} key={index} />
           );
         })}
       </div>
@@ -16,9 +16,9 @@ const BlogGrid = ({ title, list }) => {
   );
 };
 
-const GridItem = ({blog}) => {
+const GridItem = ({blog, index}) => {
   return (
-    <div className="gridItem small">
+    <div className="gridItem small" key={index}>
       {blog?<Image src={blog?.bgLink} />:""}
       <div className="content">
         <h6>{blog?.type}</h6>

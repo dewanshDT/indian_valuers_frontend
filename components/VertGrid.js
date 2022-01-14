@@ -5,8 +5,8 @@ export default function VertGrid({ title, list }) {
     <div className="blogsContainer">
       <h3>{title}</h3>
       <div className="grid vert">
-        {list?.map((blog) => (
-          <div className="blogPreview">
+        {list?.map((blog, index) => (
+          <div className="blogPreview" key={index}>
             <div className="preview">
               <Image src={blog?.bgLink} />
             </div>
